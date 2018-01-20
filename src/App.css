@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.playingCards .card {
+  vertical-align: top;
+}
+.btn{
+  margin: 20px 0 40px;
+  cursor: pointer;
+  padding: 6px 20px;
+}
