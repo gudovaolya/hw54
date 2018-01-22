@@ -43,7 +43,7 @@ class App extends Component {
         // royal flush
         // let cards = [
         //     {suit: 'H', rank: 'A'},
-        //     {suit: 'C', rank: 'K'},
+        //     {suit: 'H', rank: 'K'},
         //     {suit: 'H', rank: '10'},
         //     {suit: 'H', rank: 'Q'},
         //     {suit: 'H', rank: 'J'}
@@ -69,8 +69,8 @@ class App extends Component {
 
         //Srtaight
         // let cards = [
-        //     {suit: 'S', rank: '9'},
-        //     {suit: 'H', rank: '8'},
+        //     {suit: 'S', rank: 'K'},
+        //     {suit: 'H', rank: 'A'},
         //     {suit: 'C', rank: '10'},
         //     {suit: 'H', rank: 'Q'},
         //     {suit: 'H', rank: 'J'}
