@@ -42,19 +42,19 @@ class WinCalculator {
         this.ranks.forEach(rank => {
             if(rank !== 'J' && rank !== 'Q' && rank !== 'K' && rank !== 'A') {
                 ranksInt.push(parseInt(rank));
-            } else if (rank == 'J') {
+            } else if (rank ==='J') {
                 ranksInt.push(11);
-            } else if (rank == 'Q') {
+            } else if (rank === 'Q') {
                 ranksInt.push(12);
-            } else if (rank == 'K') {
+            } else if (rank === 'K') {
                 ranksInt.push(13);
-            } else if (rank == 'A') {
+            } else if (rank === 'A') {
                 ranksInt.push(14);
             }
         });
 
         ranksInt.sort(compareNumeric);
-        
+
         let sum = 0;
 
         if (this.isFlush) {
@@ -82,13 +82,13 @@ class WinCalculator {
         this.ranks.forEach(rank => {
             if(rank !== 'J' && rank !== 'Q' && rank !== 'K' && rank !== 'A') {
                 ranksInt.push(parseInt(rank));
-            } else if (rank == 'J') {
+            } else if (rank === 'J') {
                 ranksInt.push(11);
-            } else if (rank == 'Q') {
+            } else if (rank === 'Q') {
                 ranksInt.push(12);
-            } else if (rank == 'K') {
+            } else if (rank === 'K') {
                 ranksInt.push(13);
-            } else if (rank == 'A' && !this.ranks.includes('2')) {
+            } else if (rank === 'A' && !this.ranks.includes('2')) {
                 ranksInt.push(14);
             } else {
                 ranksInt.unshift(1);
